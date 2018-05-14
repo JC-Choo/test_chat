@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.cnwlc.testchatting.FriendInvite.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imgView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="0.5dp"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="이름"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/cpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="이름"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+</com.example.cnwlc.testchatting.FriendInvite.CheckableLinearLayout>

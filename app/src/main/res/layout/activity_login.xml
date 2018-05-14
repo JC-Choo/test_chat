@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="11.36"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/pw"
+                    android:layout_centerHorizontal="true"
+                    android:ems="10"
+                    android:hint="E-mail(id)"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/id"
+                    android:layout_centerVertical="true"
+                    android:ems="10"
+                    android:hint="password"
+                    android:inputType="textPassword" />
+
+                <CheckBox
+                    android:id="@+id/autologinCB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/linearLayout5"
+                    android:layout_weight="1"
+                    android:text="자동로그인" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/pw"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="2"
+                android:background="@drawable/custom_button"
+                android:onClick="onClick"
+                android:text="로그인"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/facebookBtn"
+            android:layout_alignStart="@+id/linearLayout5"
+            android:background="@drawable/custom_button"
+            android:onClick="onClick"
+            android:text="회원가입"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/facebookBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/facebook2"
+            android:onClick="onClick"
+            android:text="페이스북 로그인"
+            android:textColor="#ffffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

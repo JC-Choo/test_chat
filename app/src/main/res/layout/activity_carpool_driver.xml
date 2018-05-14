@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/vrcimgBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="onClick"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/vehicleTv"
+        android:layout_alignStart="@+id/linearLayout9"
+        android:layout_marginStart="40dp" />
+
+    <ImageButton
+        android:id="@+id/insuranceCardImgBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="onClick"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/insuranceTv"
+        android:layout_alignEnd="@+id/linearLayout9"
+        android:layout_marginEnd="35dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/carNumTv"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="차량번호"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/carNumEtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex) 00버 0000"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/carModelTv"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="차량모델"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/carModelEtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex) 소나타, QM3.."
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/carRelatTv"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="차량소유관계"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/carRelatEtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex) 본인, 가족 법인 .."
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/carHostTv"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="차량소유자명"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/carHostEtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex) 홍길동, 이순신"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/licenseNumTv"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="면허번호"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/licenseNumEtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex) 00-00-000000-00"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/licenseKindTv"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="면허종류"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/licenseKindEtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex) 1종 보통"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="onClick"
+            android:text="등록하기" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="onClick"
+            android:text="취소" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/vrcimgBtn"
+        android:layout_below="@+id/linearLayout9"
+        android:text="운전면허증" />
+
+    <TextView
+        android:id="@+id/insuranceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/insuranceCardImgBtn"
+        android:layout_below="@+id/linearLayout9"
+        android:text="차량보험증" />
+
+</RelativeLayout>

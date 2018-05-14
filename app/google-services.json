@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "803995145951",
+    "firebase_url": "https://fcm-1-cce7d.firebaseio.com",
+    "project_id": "fcm-1-cce7d",
+    "storage_bucket": "fcm-1-cce7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803995145951:android:7ab474d0a74afecd",
+        "android_client_info": {
+          "package_name": "com.example.cnwlc.testchatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803995145951-uubie3tiditicsfak2rk09meq7d7ibs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACx4dgkBSv_fCf7ZhxA561eLgWh6sn2RU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
