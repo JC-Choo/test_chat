@@ -14,3 +14,6 @@ Introducing my career.
   
 ### 작성한지 좀 된 코드입니다. 추후 리팩토링 하면서 kotlin으로 재구성 예정입니다.
 
+### 아직 이 repository는 리팩토링을 시작하지 않았습니다. APP_MEMO를 먼저 작업 후 시작 예정입니다.
+### mvp pattern 적용 및 코드 정리, 추후 kotlin으로 변경까지 예정입니다.
+### 사용 예정 : SQLite, Realm, MVP pattern, (HTTP 통신 ->)Retrofit 변경, kotlin 변경, 서버 
