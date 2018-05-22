@@ -1,6 +1,6 @@
 # test_chat
 
-How to use "Memo" application : https://www.youtube.com/watch?v=Rc95Z6fkaKE&t=2s
+How to use "Chat&Car" application : https://www.youtube.com/watch?v=Rc95Z6fkaKE&t=2s
 
 Introducing my career.
 
